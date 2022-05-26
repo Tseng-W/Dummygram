@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2375E3FF1BEEE7261DA197 /* libPods-Dummygram-DummygramUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11122ADB908459494BB17DB4 /* libPods-Dummygram-DummygramUITests.a */; };
+		2097E4F42B76982EC2DA275B /* libPods-Dummygram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 417B8D433E9CE077F6152611 /* libPods-Dummygram.a */; };
+		7102D8DE283D0DE800531C30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D8DD283D0DE800531C30 /* AppDelegate.swift */; };
+		7102D8E0283D0DE800531C30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D8DF283D0DE800531C30 /* SceneDelegate.swift */; };
+		7102D8E2283D0DE800531C30 /* LobbyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D8E1283D0DE800531C30 /* LobbyViewController.swift */; };
+		7102D8E7283D0DE900531C30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7102D8E6283D0DE900531C30 /* Assets.xcassets */; };
+		7102D8EA283D0DE900531C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7102D8E8283D0DE900531C30 /* LaunchScreen.storyboard */; };
+		7102D8F5283D0DE900531C30 /* DummygramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D8F4283D0DE900531C30 /* DummygramTests.swift */; };
+		7102D8FF283D0DE900531C30 /* DummygramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D8FE283D0DE900531C30 /* DummygramUITests.swift */; };
+		7102D901283D0DE900531C30 /* DummygramUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102D900283D0DE900531C30 /* DummygramUITestsLaunchTests.swift */; };
+		E692A25C1D9F8D97204AFCE5 /* libPods-Dummygram-DummygramTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 302E9065C2A59F6E104C5860 /* libPods-Dummygram-DummygramTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7102D8F1283D0DE900531C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7102D8D2283D0DE800531C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7102D8D9283D0DE800531C30;
+			remoteInfo = Dummygram;
+		};
+		7102D8FB283D0DE900531C30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7102D8D2283D0DE800531C30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7102D8D9283D0DE800531C30;
+			remoteInfo = Dummygram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11122ADB908459494BB17DB4 /* libPods-Dummygram-DummygramUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dummygram-DummygramUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302E9065C2A59F6E104C5860 /* libPods-Dummygram-DummygramTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dummygram-DummygramTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34930C2938D411B112569F5E /* Pods-Dummygram-DummygramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummygram-DummygramTests.release.xcconfig"; path = "Target Support Files/Pods-Dummygram-DummygramTests/Pods-Dummygram-DummygramTests.release.xcconfig"; sourceTree = "<group>"; };
+		417B8D433E9CE077F6152611 /* libPods-Dummygram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dummygram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5791417027C72F27FEB8A6CF /* Pods-Dummygram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummygram.release.xcconfig"; path = "Target Support Files/Pods-Dummygram/Pods-Dummygram.release.xcconfig"; sourceTree = "<group>"; };
+		6F602A75494655AA91947D45 /* Pods-Dummygram-DummygramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummygram-DummygramUITests.release.xcconfig"; path = "Target Support Files/Pods-Dummygram-DummygramUITests/Pods-Dummygram-DummygramUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7102D8DA283D0DE800531C30 /* Dummygram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dummygram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7102D8DD283D0DE800531C30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7102D8DF283D0DE800531C30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7102D8E1283D0DE800531C30 /* LobbyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyViewController.swift; sourceTree = "<group>"; };
+		7102D8E6283D0DE900531C30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7102D8E9283D0DE900531C30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7102D8EB283D0DE900531C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7102D8F0283D0DE900531C30 /* DummygramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummygramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7102D8F4283D0DE900531C30 /* DummygramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummygramTests.swift; sourceTree = "<group>"; };
+		7102D8FA283D0DE900531C30 /* DummygramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DummygramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7102D8FE283D0DE900531C30 /* DummygramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummygramUITests.swift; sourceTree = "<group>"; };
+		7102D900283D0DE900531C30 /* DummygramUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummygramUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C145B83EEBEE189C6D636AC2 /* Pods-Dummygram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummygram.debug.xcconfig"; path = "Target Support Files/Pods-Dummygram/Pods-Dummygram.debug.xcconfig"; sourceTree = "<group>"; };
+		E205A5CFA20DB133202A33EF /* Pods-Dummygram-DummygramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummygram-DummygramTests.debug.xcconfig"; path = "Target Support Files/Pods-Dummygram-DummygramTests/Pods-Dummygram-DummygramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF77A13AE58ADF3C32F91203 /* Pods-Dummygram-DummygramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dummygram-DummygramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Dummygram-DummygramUITests/Pods-Dummygram-DummygramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7102D8D7283D0DE800531C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2097E4F42B76982EC2DA275B /* libPods-Dummygram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7102D8ED283D0DE900531C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E692A25C1D9F8D97204AFCE5 /* libPods-Dummygram-DummygramTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7102D8F7283D0DE900531C30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2375E3FF1BEEE7261DA197 /* libPods-Dummygram-DummygramUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7102D8D1283D0DE800531C30 = {
+			isa = PBXGroup;
+			children = (
+				7102D8DC283D0DE800531C30 /* Dummygram */,
+				7102D8F3283D0DE900531C30 /* DummygramTests */,
+				7102D8FD283D0DE900531C30 /* DummygramUITests */,
+				7102D8DB283D0DE800531C30 /* Products */,
+				DE4745EB0BFAE8E2D17FE708 /* Pods */,
+				D1AC1ECB1BC624F6B8F862C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7102D8DB283D0DE800531C30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7102D8DA283D0DE800531C30 /* Dummygram.app */,
+				7102D8F0283D0DE900531C30 /* DummygramTests.xctest */,
+				7102D8FA283D0DE900531C30 /* DummygramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7102D8DC283D0DE800531C30 /* Dummygram */ = {
+			isa = PBXGroup;
+			children = (
+				714E5A88283FB4BE00C6465C /* View */,
+				7102D8DD283D0DE800531C30 /* AppDelegate.swift */,
+				7102D8DF283D0DE800531C30 /* SceneDelegate.swift */,
+				7102D8E6283D0DE900531C30 /* Assets.xcassets */,
+				7102D8E8283D0DE900531C30 /* LaunchScreen.storyboard */,
+				7102D8EB283D0DE900531C30 /* Info.plist */,
+			);
+			path = Dummygram;
+			sourceTree = "<group>";
+		};
+		7102D8F3283D0DE900531C30 /* DummygramTests */ = {
+			isa = PBXGroup;
+			children = (
+				7102D8F4283D0DE900531C30 /* DummygramTests.swift */,
+			);
+			path = DummygramTests;
+			sourceTree = "<group>";
+		};
+		7102D8FD283D0DE900531C30 /* DummygramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7102D8FE283D0DE900531C30 /* DummygramUITests.swift */,
+				7102D900283D0DE900531C30 /* DummygramUITestsLaunchTests.swift */,
+			);
+			path = DummygramUITests;
+			sourceTree = "<group>";
+		};
+		714E5A88283FB4BE00C6465C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				714E5A89283FB4C800C6465C /* Lobby */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		714E5A89283FB4C800C6465C /* Lobby */ = {
+			isa = PBXGroup;
+			children = (
+				7102D8E1283D0DE800531C30 /* LobbyViewController.swift */,
+			);
+			path = Lobby;
+			sourceTree = "<group>";
+		};
+		D1AC1ECB1BC624F6B8F862C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				417B8D433E9CE077F6152611 /* libPods-Dummygram.a */,
+				302E9065C2A59F6E104C5860 /* libPods-Dummygram-DummygramTests.a */,
+				11122ADB908459494BB17DB4 /* libPods-Dummygram-DummygramUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE4745EB0BFAE8E2D17FE708 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C145B83EEBEE189C6D636AC2 /* Pods-Dummygram.debug.xcconfig */,
+				5791417027C72F27FEB8A6CF /* Pods-Dummygram.release.xcconfig */,
+				E205A5CFA20DB133202A33EF /* Pods-Dummygram-DummygramTests.debug.xcconfig */,
+				34930C2938D411B112569F5E /* Pods-Dummygram-DummygramTests.release.xcconfig */,
+				FF77A13AE58ADF3C32F91203 /* Pods-Dummygram-DummygramUITests.debug.xcconfig */,
+				6F602A75494655AA91947D45 /* Pods-Dummygram-DummygramUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7102D8D9283D0DE800531C30 /* Dummygram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7102D904283D0DE900531C30 /* Build configuration list for PBXNativeTarget "Dummygram" */;
+			buildPhases = (
+				8BF6CE46EAEE165380C4F776 /* [CP] Check Pods Manifest.lock */,
+				7102D8D6283D0DE800531C30 /* Sources */,
+				7102D8D7283D0DE800531C30 /* Frameworks */,
+				7102D8D8283D0DE800531C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dummygram;
+			productName = Dummygram;
+			productReference = 7102D8DA283D0DE800531C30 /* Dummygram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7102D8EF283D0DE900531C30 /* DummygramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7102D907283D0DE900531C30 /* Build configuration list for PBXNativeTarget "DummygramTests" */;
+			buildPhases = (
+				A9077DE257C1980BEC6C29A1 /* [CP] Check Pods Manifest.lock */,
+				7102D8EC283D0DE900531C30 /* Sources */,
+				7102D8ED283D0DE900531C30 /* Frameworks */,
+				7102D8EE283D0DE900531C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7102D8F2283D0DE900531C30 /* PBXTargetDependency */,
+			);
+			name = DummygramTests;
+			productName = DummygramTests;
+			productReference = 7102D8F0283D0DE900531C30 /* DummygramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7102D8F9283D0DE900531C30 /* DummygramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7102D90A283D0DE900531C30 /* Build configuration list for PBXNativeTarget "DummygramUITests" */;
+			buildPhases = (
+				E310FD09CBE5E9536248E460 /* [CP] Check Pods Manifest.lock */,
+				7102D8F6283D0DE900531C30 /* Sources */,
+				7102D8F7283D0DE900531C30 /* Frameworks */,
+				7102D8F8283D0DE900531C30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7102D8FC283D0DE900531C30 /* PBXTargetDependency */,
+			);
+			name = DummygramUITests;
+			productName = DummygramUITests;
+			productReference = 7102D8FA283D0DE900531C30 /* DummygramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7102D8D2283D0DE800531C30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7102D8D9283D0DE800531C30 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					7102D8EF283D0DE900531C30 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7102D8D9283D0DE800531C30;
+					};
+					7102D8F9283D0DE900531C30 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 7102D8D9283D0DE800531C30;
+					};
+				};
+			};
+			buildConfigurationList = 7102D8D5283D0DE800531C30 /* Build configuration list for PBXProject "Dummygram" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7102D8D1283D0DE800531C30;
+			productRefGroup = 7102D8DB283D0DE800531C30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7102D8D9283D0DE800531C30 /* Dummygram */,
+				7102D8EF283D0DE900531C30 /* DummygramTests */,
+				7102D8F9283D0DE900531C30 /* DummygramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7102D8D8283D0DE800531C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7102D8EA283D0DE900531C30 /* LaunchScreen.storyboard in Resources */,
+				7102D8E7283D0DE900531C30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7102D8EE283D0DE900531C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7102D8F8283D0DE900531C30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BF6CE46EAEE165380C4F776 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dummygram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9077DE257C1980BEC6C29A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dummygram-DummygramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E310FD09CBE5E9536248E460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dummygram-DummygramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7102D8D6283D0DE800531C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7102D8E2283D0DE800531C30 /* LobbyViewController.swift in Sources */,
+				7102D8DE283D0DE800531C30 /* AppDelegate.swift in Sources */,
+				7102D8E0283D0DE800531C30 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7102D8EC283D0DE900531C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7102D8F5283D0DE900531C30 /* DummygramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7102D8F6283D0DE900531C30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7102D901283D0DE900531C30 /* DummygramUITestsLaunchTests.swift in Sources */,
+				7102D8FF283D0DE900531C30 /* DummygramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7102D8F2283D0DE900531C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7102D8D9283D0DE800531C30 /* Dummygram */;
+			targetProxy = 7102D8F1283D0DE900531C30 /* PBXContainerItemProxy */;
+		};
+		7102D8FC283D0DE900531C30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7102D8D9283D0DE800531C30 /* Dummygram */;
+			targetProxy = 7102D8FB283D0DE900531C30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7102D8E8283D0DE900531C30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7102D8E9283D0DE900531C30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7102D902283D0DE900531C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7102D903283D0DE900531C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7102D905283D0DE900531C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C145B83EEBEE189C6D636AC2 /* Pods-Dummygram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AF543CM7YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dummygram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twen.Dummygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7102D906283D0DE900531C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5791417027C72F27FEB8A6CF /* Pods-Dummygram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AF543CM7YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Dummygram/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twen.Dummygram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7102D908283D0DE900531C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E205A5CFA20DB133202A33EF /* Pods-Dummygram-DummygramTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AF543CM7YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twen.DummygramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dummygram.app/Dummygram";
+			};
+			name = Debug;
+		};
+		7102D909283D0DE900531C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34930C2938D411B112569F5E /* Pods-Dummygram-DummygramTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AF543CM7YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twen.DummygramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dummygram.app/Dummygram";
+			};
+			name = Release;
+		};
+		7102D90B283D0DE900531C30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF77A13AE58ADF3C32F91203 /* Pods-Dummygram-DummygramUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AF543CM7YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twen.DummygramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dummygram;
+			};
+			name = Debug;
+		};
+		7102D90C283D0DE900531C30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F602A75494655AA91947D45 /* Pods-Dummygram-DummygramUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AF543CM7YC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twen.DummygramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dummygram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7102D8D5283D0DE800531C30 /* Build configuration list for PBXProject "Dummygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7102D902283D0DE900531C30 /* Debug */,
+				7102D903283D0DE900531C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7102D904283D0DE900531C30 /* Build configuration list for PBXNativeTarget "Dummygram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7102D905283D0DE900531C30 /* Debug */,
+				7102D906283D0DE900531C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7102D907283D0DE900531C30 /* Build configuration list for PBXNativeTarget "DummygramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7102D908283D0DE900531C30 /* Debug */,
+				7102D909283D0DE900531C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7102D90A283D0DE900531C30 /* Build configuration list for PBXNativeTarget "DummygramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7102D90B283D0DE900531C30 /* Debug */,
+				7102D90C283D0DE900531C30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7102D8D2283D0DE800531C30 /* Project object */;
+}
